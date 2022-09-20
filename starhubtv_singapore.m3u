@@ -157,8 +157,6 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 http://iptv12k.com:35461/test167/12345/9133
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-chno="815" tvg-logo="https://poster.starhubgo.com/Linear_channels2/815_1920x1080_HTV.png",KBS World (channel 815)
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="OhK.sg" tvg-chno="816" tvg-logo="https://poster.starhubgo.com/Linear_channels2/816_1920x1080_HTV.png",Oh!K
-http://iptv12k.com:35461/test167/12345/9115
 #EXTINF:-1 tvg-id="ArirangTV.kr" tvg-chno="817" tvg-logo="https://poster.starhubgo.com/Linear_channels2/817_1920x1080_HTV.png",Arirang (channel 817)
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NowJelli.hk" tvg-chno="821" tvg-logo="https://poster.starhubgo.com/Linear_channels2/821_1920x1080_HTV.png",Now Jelli (channel 821)
