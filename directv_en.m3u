@@ -1,1 +1,24 @@
-example
+#EXTM3U tvg-url="https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz" refresh="14"
+
+#EXTINF:-1 ch-number="0" tvg-id="a" tvg-chno="0" tvg-logo="a",Example
+https://undeinifed
+
+#EXTINF:-1 ch-number="202" tvg-id="CNN.us" tvg-chno="202" tvg-logo="a",CNN
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 ch-number="237" tvg-id="BravoEast.us" tvg-chno="237" tvg-logo="a",Bravo
+http://89.187.175.143:80/3019/mpegts
+
+#EXTINF:-1 ch-number="296" tvg-id="CartoonNetworkEast.us" tvg-chno="296" tvg-logo="a",Cartoon Network
+https://live.tv247.club/tv247/cn.m3u8
+
+#EXTINF:-1 ch-number="396" tvg-id="WABCDT1.us" tvg-chno="396" tvg-logo="a",WABC-TV
+https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8
+
+<!-- 
+#EXTINF:-1 ch-number="2049" tvg-id="NHKWorldJapan.jp" tvg-chno="2049" tvg-logo="a",NHK World
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8
+!-->
+
+#EXTINF:-1 ch-number="2095" tvg-id="ArirangWorld.kr" tvg-chno="2095" tvg-logo="a",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
