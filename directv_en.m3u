@@ -3,6 +3,9 @@
 #EXTINF:-1 ch-number="0" tvg-id="a" tvg-chno="0" tvg-logo="a",Example
 https://undeinifed
 
+#EXTINF:-1 ch-number="24" tvg-id="WATNDT1.us" tvg-chno="24" tvg-logo="a",WATN-TV
+https://livevideo01.localmemphis.com/hls/live/2011654/newscasts/live.m3u8
+
 #EXTINF:-1 ch-number="202" tvg-id="CNN.us" tvg-chno="202" tvg-logo="a",CNN
 https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 
@@ -17,6 +20,9 @@ https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/62407
 
 #EXTINF:-1 ch-number="296" tvg-id="CartoonNetworkEast.us" tvg-chno="296" tvg-logo="a",Cartoon Network
 https://live.tv247.club/tv247/cn.m3u8
+
+#EXTINF:-1 ch-number="352" tvg-id="NASATVPublic.us" tvg-chno="352" tvg-logo="a",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 
 #EXTINF:-1 ch-number="353" tvg-id="BloombergTelevision.us" tvg-chno="353" tvg-logo="a",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/us.m3u8
