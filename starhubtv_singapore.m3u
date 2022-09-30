@@ -23,7 +23,7 @@ http://iptv12k.com:35461/test167/12345/9112
 #EXTINF:-1 tvg-id="AstroWarna.my" tvg-chno="118" tvg-logo="https://poster.starhubgo.com/Linear_channels2/118_1920x1080_HTV.png",Astro Warna
 http://iptv12k.com:35461/test167/12345/9169
 #EXTINF:-1 tvg-id="AstroSensasi.sg" tvg-chno="123" tvg-logo="https://poster.starhubgo.com/Linear_channels2/123_1920x1080_HTV.png",Astro Sensasi
-http://iptv12k.com:35461/test167/12345/9139
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
 #EXTINF:-1 tvg-id="ZeeTV.in" tvg-chno="125" tvg-logo="https://poster.starhubgo.com/Linear_channels2/125_1920x1080_HTV.png",Zee TV
 http://iptv12k.com:35461/test167/12345/9125
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in" tvg-chno="127" tvg-logo="https://poster.starhubgo.com/Linear_channels2/127_1920x1080_HTV.png",Sony Entertainment Television
@@ -37,7 +37,7 @@ http://iptv12k.com:35461/test167/12345/9150
 #EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-chno="145" tvg-logo="https://poster.starhubgo.com/Linear_channels2/145_1920x1080_HTV.png",Cinema One Global
 https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-cinemaone/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-chno="152" tvg-logo="https://poster.starhubgo.com/Linear_channels2/152_1920x1080_HTV.png",TV5Monde Asie
-http://210.210.155.37/dr9445/s/s24/index.m3u8
+https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-chno="153" tvg-logo="https://poster.starhubgo.com/Linear_channels2/153_1920x1080_HTV.png",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="NDTV24x7.in" tvg-chno="162" tvg-logo="https://poster.starhubgo.com/Linear_channels2/162_1920x1080_HTV.png",NDTV 24X7 
@@ -136,17 +136,17 @@ https://euronews.alteox.app/hls/en_stream.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://livecdn.fptplay.net/sdb/cnbc_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-chno="708" tvg-logo="https://poster.starhubgo.com/Linear_channels2/708_1920x1080_HTV.png",Bloomberg Television
-http://iptv12k.com:35461/test167/12345/9123
+https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalAsiaPacific.hk" tvg-chno="711" tvg-logo="https://poster.starhubgo.com/Linear_channels2/711_1920x1080_HTV.png",CNN International (channel 711)
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-chno="722" tvg-logo="https://poster.starhubgo.com/Linear_channels2/722_1920x1080_HTV.png",CGTN
 http://live.cgtn.com/1000/prog_index.m3u8#https://news.cgtn.com/resource/live/english/cgtn-news.m3u8#http://117.148.179.174/TVOD/88888888/224/3221231592/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn" tvg-chno="801" tvg-logo="https://poster.starhubgo.com/Linear_channels2/801_1920x1080_HTV.png",CCTV4 (channel 801)
-http://210.210.155.37/qwr9ew/s/s19/index.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225621/.m3u8
 #EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-chno="805" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png",Phoenix Chinese Channel (channel 805)
-http://iptv12k.com:35461/test167/12345/9145
+https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
 #EXTINF:-1 tvg-id="PhoenixInfonewsChannel.hk" tvg-chno="806" tvg-logo="https://poster.starhubgo.com/Linear_channels2/806_1920x1080_HTV.png",Phoenix InfoNews Channel (channel 806)
-http://iptv12k.com:35461/test167/12345/9146
+https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
 #EXTINF:-1 tvg-id="TVBSNews.tw" tvg-chno="808" tvg-logo="https://poster.starhubgo.com/Linear_channels2/808_1920x1080_HTV.png",TVBS News
 http://123.253.32.125:9995/livestream/api/v1/long?channel_id=c20103
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-chno="811" tvg-logo="https://poster.starhubgo.com/Linear_channels2/811_1920x1080_HTV.png",NHK World Premium (channel 811)
@@ -176,7 +176,7 @@ http://210.210.155.37/x6bnqe/s/s29/index.m3u8
 #EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-chno="859" tvg-logo="https://poster.starhubgo.com/Linear_channels2/859_1920x1080_HTV.png",TVB Xing He
 http://iptv12k.com:35461/test167/12345/9149
 #EXTINF:-1 tvg-id="StarChineseMoviesSouthEastAsia.hk" tvg-chno="866" tvg-logo="https://poster.starhubgo.com/Linear_channels2/866_1920x1080_HTV.png",Star Chinese Movies
-http://iptv12k.com:35461/test167/12345/9147
+https://nonton.site:8443/indoneuetyhbsrt/bxbdrtyhevxh/780
 #EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-chno="868" tvg-logo="https://poster.starhubgo.com/Linear_channels2/868_1920x1080_HTV.png",Celestial Movies (channel 868)
 http://iptv12k.com:35461/test167/12345/9129
 #EXTINF:-1 tvg-id="CelestialClassicMovies.hk" tvg-chno="869" tvg-logo="https://poster.starhubgo.com/Linear_channels2/869_1920x1080_HTV.png",Celestial Classic Movies (channel 869)
