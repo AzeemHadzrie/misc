@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:16125
+#EXT-X-TARGETDURATION:13
+#EXTINF:11.167,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+#EXTINF:10.366,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+#EXTINF:13.067,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+#EXTINF:11.933,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+#EXTINF:10.134,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+#EXTINF:10.966,
+http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
