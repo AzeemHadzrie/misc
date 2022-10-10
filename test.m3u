@@ -1,14 +1,16 @@
 #EXTM3U x-tvg-url="https://weareblahs.github.io/epg/unifitv.xml" url-tvg="https://weareblahs.github.io/epg/unifitv.xml" refresh="14"
 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ottweb.hypp.tv:8064?deviceId=MmVkNzNjM2YtZTNlYS0zYzIyLWEzZmMtNjc5MTI1ZGE4NDEw
+#EXTINF:-1 tvg-id="CHN",Arirang TV
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GEM",GEM
-https://live.astradamy.com/unifitv/gem/index.mpd|User-Agent=DmpPlayer/20.0.25.15|Referrer=https://playtv.unifi.com.my
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://ottweb.hypp.tv:8064?deviceId=MmVkNzNjM2YtZTNlYS0zYzIyLWEzZmMtNjc5MTI1ZGE4NDEw
+https://live.astradamy.com/unifitv/gem/index.mpd|user-agent=DmpPlayer/20.0.25.15|referrer=https://playtv.unifi.com.my
 #EXTINF:-1 tvg-id="Animax",Animax
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://ottweb.hypp.tv:8064?deviceId=MmVkNzNjM2YtZTNlYS0zYzIyLWEzZmMtNjc5MTI1ZGE4NDEw
 https://live.astradamy.com/unifitv/animax/index.mpd
 #EXTINF:-1 tvg-id="701",Unifi Sports 1
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd|Referrer=https://www.tvmalaysiaonline.xyz
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd|referrer=https://www.tvmalaysiaonline.xyz
 #EXTINF:-1 tvg-id="702",Unifi Sports 2
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd|Referrer=https://www.tvmalaysiaonline.xyz
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd|referrer=https://www.tvmalaysiaonline.xyz
