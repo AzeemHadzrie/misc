@@ -1,5 +1,6 @@
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/unifitv.xml" refresh="14"
 
-#EXTINF:-1, Unifi Sports 1
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd|Referer="https://www.tvmalaysiaonline.xyz"
-#EXTINF:-1, Unifi Sports 2
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd|Referer="https://www.tvmalaysiaonline.xyz"
+#EXTINF:-1 tvg-id="701", Unifi Sports 1
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd|Referer=https://www.tvmalaysiaonline.xyz
+#EXTINF:-1 tvg-id="702", Unifi Sports 2
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd|Referer=https://www.tvmalaysiaonline.xyz
