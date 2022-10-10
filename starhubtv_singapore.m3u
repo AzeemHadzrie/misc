@@ -24,6 +24,7 @@ http://iptv12k.com:35461/test167/12345/9112
 http://iptv12k.com:35461/test167/12345/9169
 #EXTINF:-1 tvg-id="AstroSensasi.sg" tvg-chno="123" tvg-logo="https://poster.starhubgo.com/Linear_channels2/123_1920x1080_HTV.png",Astro Sensasi
 http://king-tv.online:8080//live/gisle@/FDPWGufCmY/372542.ts
+##https://raw.githubusercontent.com/AzeemHadzrie/pesn-somestuff/main/m3u8/starhub/astrosensasi.m3u8
 #EXTINF:-1 tvg-id="ZeeTV.in" tvg-chno="125" tvg-logo="https://poster.starhubgo.com/Linear_channels2/125_1920x1080_HTV.png",Zee TV
 http://iptv12k.com:35461/test167/12345/9125
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in" tvg-chno="127" tvg-logo="https://poster.starhubgo.com/Linear_channels2/127_1920x1080_HTV.png",Sony Entertainment Television
@@ -109,7 +110,7 @@ http://iptv12k.com:35461/test167/12345/9151
 http://210.210.155.37/dr9445/h/h37/index.m3u8
 #EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-chno="532" tvg-logo="https://poster.starhubgo.com/Linear_channels2/532_1920x1080_HTV.png",Animax (channel 532)
 http://iptv12k.com:35461/test167/12345/9113
-#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-chno="601" tvg-logo="https://poster.starhubgo.com/Linear_channels2/601_1920x1080_HTV.png",HBO (channel 601)
+#EXTINF:-1 tvg-id="HBOAsia.sg" tvg-chno="601" tvg-logo="https://poster.starhubgo.com/Linear_channels2/601_1920x1080_HTV.png",HBO (channel 601)
 http://iptv12k.com:35461/test167/12345/9137
 #EXTINF:-1 tvg-id="HBOSignatureAsia.sg" tvg-chno="603" tvg-logo="https://poster.starhubgo.com/Linear_channels2/603_1920x1080_HTV.png",HBO Signature (channel 603)
 http://iptv12k.com:35461/test167/12345/9136
