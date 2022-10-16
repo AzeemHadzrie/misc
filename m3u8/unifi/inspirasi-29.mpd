@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<MPD
+    type="dynamic"
+    xmlns="urn:mpeg:dash:schema:mpd:2011"
+    xmlns:cenc="urn:mpeg:cenc:2013"
+    xmlns:mspr="urn:microsoft:playready"
+    availabilityStartTime="2022-10-08T23:24:44Z"
+    publishTime="2022-10-16T03:44:38Z"
+    minimumUpdatePeriod="PT6S"
+    minBufferTime="PT6S"
+    timeShiftBufferDepth="PT19S"
+    profiles="urn:hbbtv:dash:profile:isoff-live:2012,urn:mpeg:dash:profile:isoff-live:2011"
+    xmlns:xsi="http://www.w3.org/2011/XMLSchema-instance"
+    xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd">
+  <Period start="PT0S" id="dash">
+    <AdaptationSet
+        id="1"
+        startWithSAP="1"
+        segmentAlignment="true"
+        maxWidth="1920"
+        maxHeight="1080"
+        maxFrameRate="25"
+        par="16:9">
+      <ContentProtection
+          cenc:default_KID="1900d0fd-8dfd-2357-ca26-85c66628bf07"
+          schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+          value="cenc"/>
+      <ContentProtection
+          schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+          <cenc:pssh>AAAANHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAEZAND9jf0jV8omhcZmKL8HAAAAAA==</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection
+          schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAASnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACoIARIQGQDQ/Y39I1fKJoXGZii/ByINcj0xMTEwMSZzPTM1OSoFU0RfSEQ=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection
+          schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"
+          value="MSPR 2.0">
+          <cenc:pssh>AAADJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAwYGAwAAAQABAPwCPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgAvAGQAQQBBAEcAZgAyAE4AVgB5AFAASwBKAG8AWABHAFoAaQBpAC8AQgB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFoAYgB1AEkAcQBOAEwAcABQAFEAZwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwAxAC4AOQAuADUAOAAuADEAMQAzAC8AUABsAGEAeQBSAGUAYQBkAHkALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABBAF8AVQBSAEwAPgA8AEwAVQBJAF8AVQBSAEwAPgBoAHQAdABwADoALwAvADEALgA5AC4ANQA4AC4AMQAxADMALwBQAGwAYQB5AFIAZQBhAGQAeQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAFUASQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+          <mspr:pro>BgMAAAEAAQD8AjwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4ALwBkAEEAQQBHAGYAMgBOAFYAeQBQAEsASgBvAFgARwBaAGkAaQAvAEIAdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBaAGIAdQBJAHEATgBMAHAAUABRAGcAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AMQAuADkALgA1ADgALgAxADEAMwAvAFAAbABhAHkAUgBlAGEAZAB5AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APABMAFUASQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwAxAC4AOQAuADUAOAAuADEAMQAzAC8AUABsAGEAeQBSAGUAYQBkAHkALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABVAEkAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</mspr:pro>
+      </ContentProtection>
+      <Representation
+          id="live29-1080FHD_H264"
+          mimeType="video/mp4"
+          codecs="avc1.42c028"
+          sar="1:1"
+          bandwidth="5000000"
+          width="1920"
+          height="1080"
+          >
+        <SegmentTemplate
+            presentationTimeOffset="0"
+            timescale="1000"
+            media="live29-1080FHD-$Time$.m4v"
+            initialization="live29-1080FHD-init.m4v">
+          <SegmentTimeline>
+             <S t="620384283" d="6000"/>
+             <S t="620390283" d="6000"/>
+             <S t="620396283" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+          id="live29-720H_H264"
+          mimeType="video/mp4"
+          codecs="avc1.42c028"
+          sar="1:1"
+          bandwidth="2500000"
+          width="1280"
+          height="720"
+          >
+        <SegmentTemplate
+            presentationTimeOffset="0"
+            timescale="1000"
+            media="live29-720H-$Time$.m4v"
+            initialization="live29-720H-init.m4v">
+          <SegmentTimeline>
+             <S t="620384286" d="6000"/>
+             <S t="620390286" d="6000"/>
+             <S t="620396286" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+          id="live29-480H_H264"
+          mimeType="video/mp4"
+          codecs="avc1.42c028"
+          sar="1:1"
+          bandwidth="1000000"
+          width="854"
+          height="480"
+          >
+        <SegmentTemplate
+            presentationTimeOffset="0"
+            timescale="1000"
+            media="live29-480H-$Time$.m4v"
+            initialization="live29-480H-init.m4v">
+          <SegmentTimeline>
+             <S t="620384286" d="6000"/>
+             <S t="620390286" d="6000"/>
+             <S t="620396286" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+          id="live29-360H_H264"
+          mimeType="video/mp4"
+          codecs="avc1.42c028"
+          sar="1:1"
+          bandwidth="600000"
+          width="640"
+          height="360"
+          >
+        <SegmentTemplate
+            presentationTimeOffset="0"
+            timescale="1000"
+            media="live29-360H-$Time$.m4v"
+            initialization="live29-360H-init.m4v">
+          <SegmentTimeline>
+             <S t="620384426" d="6000"/>
+             <S t="620390426" d="6000"/>
+             <S t="620396426" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+          id="live29-240H_H264"
+          mimeType="video/mp4"
+          codecs="avc1.42c028"
+          sar="1:1"
+          bandwidth="250000"
+          width="480"
+          height="270"
+          >
+        <SegmentTemplate
+            presentationTimeOffset="0"
+            timescale="1000"
+            media="live29-240H-$Time$.m4v"
+            initialization="live29-240H-init.m4v">
+          <SegmentTimeline>
+             <S t="620384426" d="6000"/>
+             <S t="620390426" d="6000"/>
+             <S t="620396426" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet
+        id="2"
+        segmentAlignment="true">
+      <AudioChannelConfiguration
+          schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+          value="1"/>
+      <ContentProtection
+          cenc:default_KID="1900d0fd-8dfd-2357-ca26-85c66628bf07"
+          schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+          value="cenc"/>
+      <ContentProtection
+          schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+          <cenc:pssh>AAAANHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAEZAND9jf0jV8omhcZmKL8HAAAAAA==</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection
+          schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAASnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACoIARIQGQDQ/Y39I1fKJoXGZii/ByINcj0xMTEwMSZzPTM1OSoFU0RfSEQ=</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection
+          schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"
+          value="MSPR 2.0">
+          <cenc:pssh>AAADJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAwYGAwAAAQABAPwCPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgAvAGQAQQBBAEcAZgAyAE4AVgB5AFAASwBKAG8AWABHAFoAaQBpAC8AQgB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFoAYgB1AEkAcQBOAEwAcABQAFEAZwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwAxAC4AOQAuADUAOAAuADEAMQAzAC8AUABsAGEAeQBSAGUAYQBkAHkALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABBAF8AVQBSAEwAPgA8AEwAVQBJAF8AVQBSAEwAPgBoAHQAdABwADoALwAvADEALgA5AC4ANQA4AC4AMQAxADMALwBQAGwAYQB5AFIAZQBhAGQAeQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAFUASQBfAFUAUgBMAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+          <mspr:pro>BgMAAAEAAQD8AjwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4ALwBkAEEAQQBHAGYAMgBOAFYAeQBQAEsASgBvAFgARwBaAGkAaQAvAEIAdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBaAGIAdQBJAHEATgBMAHAAUABRAGcAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AMQAuADkALgA1ADgALgAxADEAMwAvAFAAbABhAHkAUgBlAGEAZAB5AC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAQQBfAFUAUgBMAD4APABMAFUASQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwAxAC4AOQAuADUAOAAuADEAMQAzAC8AUABsAGEAeQBSAGUAYQBkAHkALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABVAEkAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</mspr:pro>
+      </ContentProtection>
+      <Representation
+          id="live29-1080FHD_AAC"
+          mimeType="audio/mp4"
+          codecs="mp4a.40.2"
+          audioSamplingRate="48000"
+          startWithSAP="1"
+          bandwidth="125000">
+        <SegmentTemplate
+            timescale="1000"
+            media="live29-1080FHD-$Time$.m4a"
+            initialization="live29-1080FHD-init.m4a">
+          <SegmentTimeline>
+             <S t="620384283" d="6000"/>
+             <S t="620390283" d="6000"/>
+             <S t="620396283" d="6000"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
